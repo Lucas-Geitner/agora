@@ -4,7 +4,11 @@ import { Tweet } from './twitter.js';
 
 
 export const TwitterList = ({ twitters }) => (
-  <Panel collapsible defaultExpanded header="Twitter" id="twitter-pannel">
+  <Panel
+    collapsible
+    defaultExpanded
+    header="Twitter"
+    id="twitter-pannel">
     <p>
       les derniers tweet de Benoit!
     </p>
