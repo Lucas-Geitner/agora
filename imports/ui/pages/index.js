@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, Jumbotron } from 'react-bootstrap';
 // import { TwitterList } from '../components/twitter-list.js';
 import TwitterList from '../containers/twitter-list.js';
-import FacebookList from '../containers/facebook-list.js';
+// import FacebookList from '../containers/facebook-list.js';
 
 
 export const Index = () => (
@@ -14,7 +14,7 @@ export const Index = () => (
         <TwitterList />
       </Col>
       <Col xs={ 12 } sm={ 6 }>
-        <FacebookList />
+        {/* <FacebookList /> */}
       </Col>
     </Row>
     <p><a className="btn btn-success" href="https://www.benoithamon2017.fr/" role="button"> Benoit Hamon</a></p>

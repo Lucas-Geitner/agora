@@ -58,7 +58,6 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "crypto-js": "^3.1.8",
-    "fb": "^1.1.1",
     "immutability-helper": "^2.0.0",
     "jquery": "^2.2.4",
     "jquery-validation": "^1.15.1",
